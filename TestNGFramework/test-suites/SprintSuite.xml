@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sprint Suite">
+  <test name="Verify Guru 99">
+    <classes>
+      <class name="p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3"/>
+    </classes>
+  </test> <!-- Verify Guru 99 -->
+</suite> <!-- Sprint Suite -->
