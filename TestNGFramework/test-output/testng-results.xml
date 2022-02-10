@@ -2,76 +2,56 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-10T00:25:43 BDT" name="Development Suite" finished-at="2022-02-10T00:25:51 BDT" duration-ms="8114">
+  <suite started-at="2022-02-10T18:23:18 BDT" name="TestNGFramework by groups" finished-at="2022-02-10T18:23:19 BDT" duration-ms="113">
     <groups>
+      <group name="bvt">
+        <method signature="C_16_Group_ClassLevel.verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyElement" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogin" class="p_03_Groups.C_16_Group_ClassLevel"/>
+      </group> <!-- bvt -->
+      <group name="functional">
+        <method signature="C_16_Group_ClassLevel.verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyURL" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyTitle" class="p_03_Groups.C_16_Group_ClassLevel"/>
+      </group> <!-- functional -->
+      <group name="verify functionality">
+        <method signature="C_16_Group_ClassLevel.verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyElement" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyURL" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogin" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyTitle" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyLogout()[pri:3, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogout" class="p_03_Groups.C_16_Group_ClassLevel"/>
+      </group> <!-- verify functionality -->
+      <group name="reg">
+        <method signature="C_16_Group_ClassLevel.verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyElement" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogin" class="p_03_Groups.C_16_Group_ClassLevel"/>
+      </group> <!-- reg -->
+      <group name="sprint">
+        <method signature="C_16_Group_ClassLevel.verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyURL" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyTitle" class="p_03_Groups.C_16_Group_ClassLevel"/>
+        <method signature="C_16_Group_ClassLevel.verifyLogout()[pri:3, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogout" class="p_03_Groups.C_16_Group_ClassLevel"/>
+      </group> <!-- sprint -->
     </groups>
-    <test started-at="2022-02-10T00:25:43 BDT" name="Verify Ebay" finished-at="2022-02-10T00:25:51 BDT" duration-ms="8114">
-      <class name="p_01_Annotation.C_08_BeforeSuiteAfterSuite_Child1">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:p_01_Annotation.C_08_BeforeSuiteAfterSuite_Child1@3daa422a]" started-at="2022-02-10T00:25:43 BDT" name="beforeSuite" finished-at="2022-02-10T00:25:43 BDT" duration-ms="9" status="PASS">
+    <test started-at="2022-02-10T18:23:18 BDT" name="GRP-verify functionality" finished-at="2022-02-10T18:23:19 BDT" duration-ms="113">
+      <class name="p_03_Groups.C_16_Group_ClassLevel">
+        <test-method signature="verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyElement" finished-at="2022-02-10T18:23:19 BDT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method signature="verifyTitle()[pri:1, instance:p_01_Annotation.C_08_BeforeSuiteAfterSuite_Child1@3daa422a]" started-at="2022-02-10T00:25:43 BDT" name="verifyTitle" description="This method is used to verify page title." finished-at="2022-02-10T00:25:51 BDT" duration-ms="8048" status="PASS">
+        </test-method> <!-- verifyElement -->
+        <test-method signature="verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyURL" finished-at="2022-02-10T18:23:19 BDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method signature="verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyLogin" finished-at="2022-02-10T18:23:19 BDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyTitle" finished-at="2022-02-10T18:23:19 BDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method signature="Login()[pri:2, instance:p_01_Annotation.C_08_BeforeSuiteAfterSuite_Child1@3daa422a]" started-at="2022-02-10T00:25:51 BDT" name="Login" description="This method is used to print login message for ebay." finished-at="2022-02-10T00:25:51 BDT" duration-ms="6" status="PASS">
+        <test-method signature="verifyLogout()[pri:3, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyLogout" finished-at="2022-02-10T18:23:19 BDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Logout()[pri:3, instance:p_01_Annotation.C_08_BeforeSuiteAfterSuite_Child1@3daa422a]" started-at="2022-02-10T00:25:51 BDT" name="Logout" description="This method is used to print logout message for ebay." finished-at="2022-02-10T00:25:51 BDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:p_01_Annotation.C_08_BeforeSuiteAfterSuite_Child1@3daa422a]" started-at="2022-02-10T00:25:51 BDT" name="afterSuite" finished-at="2022-02-10T00:25:51 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- p_01_Annotation.C_08_BeforeSuiteAfterSuite_Child1 -->
-    </test> <!-- Verify Ebay -->
-  </suite> <!-- Development Suite -->
-  <suite started-at="2022-02-10T00:26:01 BDT" name="Sprint Suite" finished-at="2022-02-10T00:26:10 BDT" duration-ms="9072">
-    <groups>
-    </groups>
-    <test started-at="2022-02-10T00:26:01 BDT" name="Verify Guru 99" finished-at="2022-02-10T00:26:10 BDT" duration-ms="9072">
-      <class name="p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3@5ffead27]" started-at="2022-02-10T00:26:01 BDT" name="beforeSuite" finished-at="2022-02-10T00:26:01 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method signature="verifyTitle()[pri:0, instance:p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3@5ffead27]" started-at="2022-02-10T00:26:01 BDT" name="verifyTitle" finished-at="2022-02-10T00:26:10 BDT" duration-ms="9065" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3@5ffead27]" started-at="2022-02-10T00:26:10 BDT" name="afterSuite" finished-at="2022-02-10T00:26:10 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3 -->
-    </test> <!-- Verify Guru 99 -->
-  </suite> <!-- Sprint Suite -->
-  <suite started-at="2022-02-10T00:26:10 BDT" name="Master Suite" finished-at="2022-02-10T00:26:10 BDT" duration-ms="0">
-    <groups>
-    </groups>
-  </suite> <!-- Master Suite -->
-  <suite started-at="2022-02-10T00:25:51 BDT" name="Formal Suite" finished-at="2022-02-10T00:26:01 BDT" duration-ms="9595">
-    <groups>
-    </groups>
-    <test started-at="2022-02-10T00:25:51 BDT" name="Verfiy Demo Login" finished-at="2022-02-10T00:26:01 BDT" duration-ms="9595">
-      <class name="p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3@323b36e0]" started-at="2022-02-10T00:25:51 BDT" name="beforeSuite" finished-at="2022-02-10T00:25:51 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method signature="verifyTitle()[pri:0, instance:p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3@323b36e0]" started-at="2022-02-10T00:25:51 BDT" name="verifyTitle" finished-at="2022-02-10T00:26:01 BDT" duration-ms="9591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3@323b36e0]" started-at="2022-02-10T00:26:01 BDT" name="afterSuite" finished-at="2022-02-10T00:26:01 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- p_01_Annotation.C_10_BeforeSuiteAfterSuite_Child3 -->
-    </test> <!-- Verfiy Demo Login -->
-  </suite> <!-- Formal Suite -->
+        </test-method> <!-- verifyLogout -->
+      </class> <!-- p_03_Groups.C_16_Group_ClassLevel -->
+    </test> <!-- GRP-verify functionality -->
+  </suite> <!-- TestNGFramework by groups -->
 </testng-results>
