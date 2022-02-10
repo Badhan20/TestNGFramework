@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="p_01_Annotation.C_06_BeforeGroupAfterGroup">
+      <class name="p_04_SkipTest.C_18_SkipTest_2">
         <methods>
-          <include name="verifyHeader"/>
+          <include name="conditionalSkip"/>
+          <include name="forceSkip"/>
         </methods>
-      </class> <!-- p_01_Annotation.C_06_BeforeGroupAfterGroup -->
+      </class> <!-- p_04_SkipTest.C_18_SkipTest_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

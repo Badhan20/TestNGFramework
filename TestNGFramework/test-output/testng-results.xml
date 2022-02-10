@@ -1,57 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-10T18:23:18 BDT" name="TestNGFramework by groups" finished-at="2022-02-10T18:23:19 BDT" duration-ms="113">
+  <suite started-at="2022-02-11T00:34:35 BDT" name="Default suite" finished-at="2022-02-11T00:34:35 BDT" duration-ms="90">
     <groups>
-      <group name="bvt">
-        <method signature="C_16_Group_ClassLevel.verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyElement" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogin" class="p_03_Groups.C_16_Group_ClassLevel"/>
-      </group> <!-- bvt -->
-      <group name="functional">
-        <method signature="C_16_Group_ClassLevel.verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyURL" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyTitle" class="p_03_Groups.C_16_Group_ClassLevel"/>
-      </group> <!-- functional -->
-      <group name="verify functionality">
-        <method signature="C_16_Group_ClassLevel.verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyElement" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyURL" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogin" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyTitle" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyLogout()[pri:3, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogout" class="p_03_Groups.C_16_Group_ClassLevel"/>
-      </group> <!-- verify functionality -->
-      <group name="reg">
-        <method signature="C_16_Group_ClassLevel.verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyElement" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogin" class="p_03_Groups.C_16_Group_ClassLevel"/>
-      </group> <!-- reg -->
-      <group name="sprint">
-        <method signature="C_16_Group_ClassLevel.verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyURL" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyTitle" class="p_03_Groups.C_16_Group_ClassLevel"/>
-        <method signature="C_16_Group_ClassLevel.verifyLogout()[pri:3, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" name="verifyLogout" class="p_03_Groups.C_16_Group_ClassLevel"/>
-      </group> <!-- sprint -->
     </groups>
-    <test started-at="2022-02-10T18:23:18 BDT" name="GRP-verify functionality" finished-at="2022-02-10T18:23:19 BDT" duration-ms="113">
-      <class name="p_03_Groups.C_16_Group_ClassLevel">
-        <test-method signature="verifyElement()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyElement" finished-at="2022-02-10T18:23:19 BDT" duration-ms="14" status="PASS">
+    <test started-at="2022-02-11T00:34:35 BDT" name="Default test" finished-at="2022-02-11T00:34:35 BDT" duration-ms="90">
+      <class name="p_04_SkipTest.C_18_SkipTest_2">
+        <test-method signature="conditionalSkip()[pri:0, instance:p_04_SkipTest.C_18_SkipTest_2@61230f6a]" started-at="2022-02-11T00:34:35 BDT" name="conditionalSkip" finished-at="2022-02-11T00:34:35 BDT" duration-ms="12" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Conditional skip.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Conditional skip.
+at p_04_SkipTest.C_18_SkipTest_2.conditionalSkip(C_18_SkipTest_2.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyElement -->
-        <test-method signature="verifyURL()[pri:1, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyURL" finished-at="2022-02-10T18:23:19 BDT" duration-ms="3" status="PASS">
+        </test-method> <!-- conditionalSkip -->
+        <test-method signature="forceSkip()[pri:0, instance:p_04_SkipTest.C_18_SkipTest_2@61230f6a]" started-at="2022-02-11T00:34:35 BDT" name="forceSkip" finished-at="2022-02-11T00:34:35 BDT" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Forcefully skipped.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Forcefully skipped.
+at p_04_SkipTest.C_18_SkipTest_2.forceSkip(C_18_SkipTest_2.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyURL -->
-        <test-method signature="verifyLogin()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyLogin" finished-at="2022-02-10T18:23:19 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyTitle()[pri:2, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyTitle" finished-at="2022-02-10T18:23:19 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method signature="verifyLogout()[pri:3, instance:p_03_Groups.C_16_Group_ClassLevel@17046283]" started-at="2022-02-10T18:23:19 BDT" name="verifyLogout" finished-at="2022-02-10T18:23:19 BDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogout -->
-      </class> <!-- p_03_Groups.C_16_Group_ClassLevel -->
-    </test> <!-- GRP-verify functionality -->
-  </suite> <!-- TestNGFramework by groups -->
+        </test-method> <!-- forceSkip -->
+      </class> <!-- p_04_SkipTest.C_18_SkipTest_2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
